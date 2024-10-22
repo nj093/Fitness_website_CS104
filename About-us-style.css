@@ -1,0 +1,66 @@
+header h1{
+    display: inline;
+    color: red;
+    text-shadow: 2px 2px green;
+    margin: 50px 25px 50px;
+    width: 100%;
+}
+.logo{
+    margin: 25px 50px 25px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 200px;
+
+}
+header{
+    width:100%;
+    background: grey;
+}
+div nav ul li{
+    display: inline;
+    align-content: center;
+
+}
+.nav-button{
+    margin:25px 50px 25px;
+}
+
+.navigation .nav-bar{
+    width: 100%;
+    border: 5px solid red;
+
+}
+a{
+    text-decoration: none;
+}
+h2{
+    text-transform: capitalize;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-style: italic;
+    font-weight: 100;
+}
+h3{
+    text-transform: capitalize;
+    color: cornflowerblue;
+    width: 300px;
+}
+p{
+    width: 400px;
+    font-size: large;
+    font-style: italic;
+}
+button{
+    border-color: black;
+    border-width: 5px;
+    border-radius: 5px;
+    border-style: groove;
+}
+img{
+    float: right;
+    width: 45%;
+    margin-right: 200px;
+}
+.position{
+    position: relative;
+}
