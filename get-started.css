@@ -1,0 +1,60 @@
+.home-button{
+    text-align: left; color:rgb(82, 82, 82); text-decoration: none; font-family: Sans-serif; font-weight:900; font-size:25px;
+}
+
+.booknow{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 60px; color:rgb(68, 107, 141); font-weight:bolder;
+}
+
+.first-name{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight:bold; font-size: 20px; color:rgb(121, 155, 174);
+}
+
+.last-name{
+    padding-left: 40px; 
+}
+
+.phone-number{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight:bold; font-size: 20px; color:rgb(121, 155, 174);
+}
+
+.container{
+    background-color: rgb(191, 211, 231); padding-left: 20px; padding-top:20px; width:900px;
+}
+
+.is-it{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight:bold; font-size: 20px; color:rgb(121, 155, 174);
+}
+
+.yes-no{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight:bold; font-size: 14px; color:rgb(64, 84, 95);
+}
+
+.date{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight:bold; font-size: 20px; color:rgb(121, 155, 174); display:inline-block;
+}
+
+.YY{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 13px;; color:rgb(255, 255, 255); display:inline-block; padding-left: 20px;
+}
+
+.chosen-date{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight:bold; font-size: 14px; color:rgb(64, 84, 95);
+}
+
+.hour{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight:bold; font-size: 20px; color:rgb(121, 155, 174); display:inline-block;
+}
+
+.HH{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 13px;; color:rgb(255, 255, 255); display:inline-block; padding-left: 20px;
+}
+
+.chosen-hour{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight:bold; font-size: 14px; color:rgb(64, 84, 95);
+}
+
+.inline1{
+    display: inline-block; vertical-align: top;
+}
+
+.inline2{
+    display:inline-block; vertical-align: top; padding-left: 50px;
+}
+
+.comments{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight:bold; font-size: 20px; color:rgb(121, 155, 174); 
+}
