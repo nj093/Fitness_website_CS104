@@ -37,30 +37,68 @@ h2{
     text-transform: capitalize;
     margin-top: 50px;
     margin-left: 30px;
-    font-style: italic;
-    font-weight: 100;
 }
-h3{
+.lead{
     text-transform: capitalize;
     color: cornflowerblue;
     width: 300px;
+    font-size: large;
 }
-p{
+.second{
     width: 400px;
     font-size: large;
     font-style: italic;
 }
-button{
-    border-color: black;
-    border-width: 5px;
-    border-radius: 5px;
-    border-style: groove;
-}
-img{
+.one{
     float: right;
     width: 45%;
     margin-right: 200px;
 }
 .position{
     position: relative;
+}
+.container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 300px;
+}
+.two{
+    margin-top: 60px;
+    margin-inline-start: -150px;
+}
+h3{
+    margin-top: 150px;
+    margin-left: 50px;
+    font-size: xx-large;
+}
+.para-three{
+    width: 280px;
+    font-size: x-large;
+    font-style: italic;
+}
+.card-body{
+    background-color: cadetblue;
+    text-align: center;
+    
+}
+.card-title{
+    font-size: x-large;
+}
+.card-text{
+    font-size: large;
+    margin-bottom: 50px;
+}
+.form-control{
+    border-radius: 50px;
+    width: 200px;
+    height: 20px;
+    background-color: darkseagreen;
+}
+#id1{
+    border-radius: 50px;
+    width: 150px;
+    height: 25px;
+    background-color: darkseagreen;
+    color: white;
 }
