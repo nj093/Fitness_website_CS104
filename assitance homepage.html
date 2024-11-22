@@ -6,66 +6,233 @@
     <title> Contact US</title>
      <!--External styling-->
 
-<style>
-    .Heading Title{ font-family: Arial, Helvetica, sans-serif;
-        font-size: x-large;
-    color: black;
-    font-weight: 700;
+<style>  
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
-    img{
+
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    /* Header */
+    .Heading.Title {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2.5em;
+        color: #2C3E50;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    /* Contact*/
+    #contact {
+        padding: 40px 20px;
+        text-align: center;
+        background-color: #fff;
+    }
+
+    #contact p {
+        margin: 10px 0;
+        font-size: 1.2em;
+        color: #555;
+    }
+
+    /* styling*/
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    form label {
+        font-size: 1.1em;
+        color: #333;
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    form input[type="text"],
+    form input[type="email"] {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 1em;
+        color: #333;
+    }
+
+    form input[type="submit"],
+    .Login,
+    .button {
+        background-color: #a91919;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        font-size: 1em;
+    }
+
+    form input[type="submit"]:hover,
+    .Login:hover,
+    .button:hover {
+        background-color: #a91919;
+    }
+
+    /* Image */
+    img {
         float: right;
-        width: 45%;
-        margin-right; 200px    }
-        body {
-            font-family: Arial, sans-serif;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin-right: 10px;
-        }
-        nav ul li a {
-            text-decoration: none;
-        }
-        .Login {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-        }
-        form input {
+        width: 40%;
+        margin-left: 20px;
+        border-radius: 8px;
+    }
+
+    /* Design */
+    @media screen and (max-width: 768px) {
+        img {
+            width: 60%;
+            margin: 20px auto;
             display: block;
-            margin-bottom: 10px;
         }
+
+        #contact {
+            padding: 20px;
+        }
+
+        form {
+            padding: 20px;
+            width: 90%;
+        }
+
+        .Heading.Title {
+            font-size: 2em;
+        }
+
+        nav ul {
+            flex-direction: column;
+        }
+
+        nav ul li {
+            margin: 5px 0;
+        }
+    }
+
+    /* Links */
+    a {
+        color: #a91919;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    /* Footer */
+
+    footer p {
+        font-size: 0.9em;}
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        footer .footer-column {
+            margin: 10px;
+            flex: 1;
+            min-width: 200px;
+        }
+
+        footer .footer-column h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #a91919;
+        }
+
+        footer .footer-column p,
+        footer .footer-column a {
+            font-size: 1em;
+            color: #ddd;
+            line-height: 1.6;
+        }
+
+        footer .footer-column a {
+            text-decoration: none;
+        }
+
+        footer .footer-column a:hover {
+            color: #a91919;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: auto;
+            font-size: 0.9em;
+        }
+
+        footer .footer-content {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 0 20px}
+
+        /* Social Media  */
+        footer .social-media {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        footer .social-media a {
+            margin: 0 10px;
+            font-size: 24px;
+            color: #ddd;
+            transition: color 0.3s;
+        }
+
+        footer .social-media a:hover {
+            color: #a91919;
+        }
+
+        /* Design */
+        @media (max-width: 768px) {
+            footer {
+                flex-direction: column;
+                text-align: left;
+            }
+
+            footer .footer-column {
+                width: 100%;
+                margin-bottom: 20px;
+            }}
 </style>
 </head>
 <body>
-    <header>
-        <h1 class="logo"><a href="index.html">FITNESS VITAMINS & SUPPLEMENTS</h1>
-    </header>
-    <div class = "navigation">
-        <nav class = "nav-bar">
-            <ul>
-                <li class="nav-button"><a href="Shop.html">Shop</li>
-                <li class="nav-button"><a href="About-us.html">About</li>
-                <li class="nav-button"><a href="assitance homepage.html">Assistance</li>
-                <li class="nav-button"><a href="">Cart</li>
-                <li class="nav-button"><a href="booknow.html">Book Now</a></li>
-            </ul>
-        </nav>
-    </div>
-    <Heading 1  class="Heading Title"> Contact US </Heading>
+    <h1  class="Heading Title"> Contact US </h1>
 <form action="">
 <!--q6-->
 <p class="Info"> Let us know what you think about our products.<br> If you have any questions or concerns,<br> and if you want to partner with us, please reach out to.</p><br>
 <!--Q7--> 
-<a href="emailexample@gmail.com"> email</a>
-<a href="+1(555) 555 555"> Number</a>
+<a href="fitness@gmail.com"> Email</a><br>
+<a href="+1(555) 555 555"> Number</a><br>
 <!--Q8-->
      <label for="id2"> 
      <br> First name <input type="text" name="first name" placeholder="Enter first name" id="id2"> 
@@ -78,6 +245,47 @@
        </label>
        <button id="Login"> Login  </button>
        <button id="sign up"> sign up </button>
-       <img src="C:\Users\janas\OneDrive\Pictures\Screenshots\Screenshot 2024-10-06 000255.png" alt="Fitness "> 
+       <img src="C:\Users\janas\OneDrive\HTML PROJECTS\Fitness_website_CS104\Gym picture.jpeg" alt="Gym Fitness"> 
+       <div class="footer-column">
+        <h3>Company Name</h3>
+        <p>Fitness Vitamins & Supplements</p>
+        <p>Your fitness journey starts here. We offer the best fitness products and training.</p>
+    </div>
+
+    <!-- Location -->
+    <div class="footer-column">
+        <h3>Location</h3>
+        <p>123 Fitness Ave,</p>
+        <p>Newark, NJ 356367</p>
+        <p>USA</p>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer-column">
+        <h3>Contact Us</h3>
+        <p>Phone: <a href="tel:+1555555555">+1 (555) 555-5555</a></p>
+        <p>Email: <a href="mailto:Fitness@gmail.com">Fitness@gmail.com</a></p>
+    </div>
+
+    <!-- Social Media -->
+    <div class="footer-column">
+        <h3>Follow Us</h3>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank" title="Facebook">
+                <i class="fab fa-facebook-f"></i> Facebook
+            </a>
+            <a href="https://www.instagram.com" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://www.twitter.com" target="_blank" title="Twitter">
+                <i class="fab fa-twitter"></i> Twitter
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin-in"></i> LinkedIn
+            </a>
+        </div>
+    </div>
+</footer>
+<script src="JS assistance page.js"></script>
 </body>
 </html>
