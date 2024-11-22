@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!-- External styling -->
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        .Heading.Title {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2.5em;
+            color: #2C3E50;
+            font-weight: 700;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        /* Navigation Bar */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background-color: #111;
+        }
+
+        /* Contact Section */
+        #contact {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        #contact p {
+            margin: 10px 0;
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        /* Form Styling */
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        form label {
+            font-size: 1.1em;
+            color: #333;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        form input[type="text"],
+        form input[type="email"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+            color: #333;
+        }
+
+        form input[type="submit"],
+        .Login,
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            display: inline-block;
+            font-size: 1em;
+        }
+
+        form input[type="submit"]:hover,
+        .Login:hover,
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        /* Image Styling */
+        img {
+            float: right;
+            width: 40%;
+            margin-left: 20px;
+            border-radius: 8px;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            img {
+                width: 60%;
+                margin: 20px auto;
+                display: block;
+            }
+
+            #contact {
+                padding: 20px;
+            }
+
+            form {
+                padding: 20px;
+                width: 90%;
+            }
+
+            .Heading.Title {
+                font-size: 2em;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 5px 0;
+            }
+        }
+
+        /* Links */
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Footer Styling */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        footer p {
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href=" ">Home</a></li>
+            <li><a href=" ">About</a></li>
+            <li><a href=" ">Services</a></li>
+            <li><a href=" ">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div id="contact">
+        <h1 class="Heading Title">Contact Us</h1>
+
+        <form action="">
+            <!-- Description Section -->
+            <p class="Info">Let us know what you think about our products.<br> If you have any questions or concerns,<br> and if you want to partner with us, please reach out to.</p><br>
+
+            <!-- Contact Details -->
+            <p><a href="mailto:emailexample@gmail.com">Email</a></p>
+            <p><a href="tel:+1555555555">Phone Number</a></p><br>
+
+            <!-- Form Inputs -->
+            <label for="id2">First name</label>
+            <input type="text" name="first_name" placeholder="Enter first name" id="id2">
+
+            <label for="id3">Last Name</label>
+            <input type="text" name="last_name" placeholder="Enter last name" id="id3">
+
+            <label for="id4">Email</label>
+            <input type="email" name="email" placeholder="Enter email" id="id4" required>
+
+            <button type="submit" id="Login" class="Login">Submit</button>
+        </form>
+
+        <!-- Image Section -->
+        <img src="Gym picture.jpeg" alt="Gym Fitness">
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Your Fitness Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
