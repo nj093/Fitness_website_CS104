@@ -4,6 +4,7 @@ header h1{
     text-shadow: 2px 2px green;
     margin: 50px 25px 50px;
     width: 100%;
+    
 }
 .logo{
     margin: 25px 50px 25px;
@@ -29,9 +30,24 @@ div nav ul li{
 .navigation .nav-bar{
     width: 100%;
     border: 5px solid red;
+    border-radius: 7%;
 
 }
 
 footer{
     background-color: #ffd900;
+}
+
+.home-header{
+    text-align: center;
+    text-decoration: solid;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:aqua;
+
+}
+.t-header{
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
